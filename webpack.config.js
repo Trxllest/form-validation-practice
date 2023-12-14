@@ -12,6 +12,10 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: "Project Title",
+      // load tmeplate
+      template: "index.html",
+      // inject javascript at the end of the body
+      inject: "body",
     }),
   ],
   output: {

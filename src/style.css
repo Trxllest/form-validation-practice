@@ -1,0 +1,32 @@
+/* Styles for the form within the dialog */
+form {
+    padding: 20px;
+    background-color: ;
+}
+
+/* Styles for labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Styles for input and textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  background-color:  rgba(253, 156, 156, 0.308);
+}
+
+input:valid {
+  border: 2px solid black;
+}
